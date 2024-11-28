@@ -14,17 +14,17 @@
                 <a
                 href="#"
                 class="bg-slate-800 py-2 px-4 rounded-lg text-white text-xs font-bold uppercase text-center"
-                >Estudiantes </a>
+                >Estudiantes</a>
 
                 <a
-                    href="{{route('vacantes.edit', $vacante->id)}}"
-                    class="bg-blue-800 py-2 px-4 rounded-lg text-white text-xs font-bold uppercase text-center"
-                >Editar </a>
+                href="{{route('vacantes.edit', $vacante->id)}}"
+                class="bg-blue-800 py-2 px-4 rounded-lg text-white text-xs font-bold uppercase text-center"
+                >Editar</a>
 
                 <a
-                    href="#"
-                    class="bg-red-600 py-2 px-4 rounded-lg text-white text-xs font-bold uppercase text-center"
-                    >Eliminar </a>
+                href="#"
+                class="bg-red-600 py-2 px-4 rounded-lg text-white text-xs font-bold uppercase text-center"
+                >Eliminar</a>
             </div>
         </div>
         @empty
